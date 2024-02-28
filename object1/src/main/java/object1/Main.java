@@ -8,6 +8,7 @@ public class Main {
         Logger logger=Logger.getLogger(Main.class.getName());
         logger.info("This is a module-using Hello World!");
 
+        //Made objects from all of the classes
         Person person = new Person("Chaz",178);
         Chair chair = new Chair("wood","brown",4);
         Dog dog = new Dog("fido",3,"wolf");
